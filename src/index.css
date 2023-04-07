@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: Lobster;
+  src: url('./fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+  font-family: Sarabun;
+  src: url('./fonts/Sarabun-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: Sarabun, 'Segoe UI', 'Roboto', 'Oxygen','Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
