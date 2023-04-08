@@ -2,8 +2,8 @@ import React from 'react';
 import TypedJs from "react-typed";
 
 const textLines = [
-    `Web Desiner`,
-    ` Web Developer`,
+    `<i>Web Desiner</i>`,
+    `<i>Web Developer</i>`,
     `Graphic Designer`,
     `Freelancer`,
     `Photographer`
@@ -11,9 +11,9 @@ const textLines = [
 
 const Typed = () => {
     return ( 
-        <span className='highlight'>
+        <p className='font-14 blue'>
             <TypedJs strings={textLines} typeSpeed={60} backSpeed={50} endDelay={100} loop={true} />
-        </span>
+        </p>
     );
 };
 

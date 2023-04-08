@@ -1,0 +1,17 @@
+
+.banner{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    /* background-color: #1a1717; */
+}
+
+.social-liks a{
+    margin-right: 15px;
+}
+
+.banner-image img{
+    max-width: 400px;
+}

@@ -1,19 +1,23 @@
 
 .navbar-brand{
     font-size: 1.5rem;
-    font-family: Lobster;
 }
 .nav-link{
     font-size: 1.1rem;
 }
-.nav-link:last-child{
-    margin-right: 20px;
+.nav-link{
+    margin: 0px 10px;
 }
 
 .mode-icon{
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 150px;
     border: 1px solid #dbd8d8;
     border-radius: 50%;
     padding: 5px;
     cursor: pointer;
+}
+
+.navbar li:last-child{
+    line-height: 40px;
 }
