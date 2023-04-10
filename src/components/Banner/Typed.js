@@ -4,7 +4,7 @@ import TypedJs from "react-typed";
 const textLines = [
     `<i>Web Desiner</i>`,
     `<i>Web Developer</i>`,
-    `Graphic Designer`,
+    `UI/UX Designer`,
     `Freelancer`,
     `Photographer`
   ];

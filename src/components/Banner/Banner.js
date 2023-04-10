@@ -6,7 +6,7 @@ import SocialLinks from '../SocialLinks/SocialLinks';
 
 const Banner = () => {
     return (
-        <div className='banner'>
+        <div id='banner'>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -16,8 +16,8 @@ const Banner = () => {
                             <p className="font-12">I'm a<span>&nbsp; </span></p> 
                             <Typed />
                         </span>
-                        <p className='banner-text font-12 gray'>For the last 3 years I'm working in Web Design & Development and gather a high knowledge in Front-End web development.</p>
-                        <button className='btn btn-sm btn-secondary'>Download CV</button>
+                        <p className='banner-text font-12 gray mb-4'>For the last 3 years I'm working in Web Design & Development and gather a high knowledge in Front-End web development.</p>
+                        <button className='btn btn-sm btn-secondary mb-2'>Download CV</button>
 
                         <div className="social-liks mt-4">
                             <SocialLinks />

@@ -1,4 +1,26 @@
 
+/* .App{
+    background-color: #1a1717;
+} */
+
+p{
+    text-align: justify;
+}
+
+.section-title{
+    position: relative;
+}
+.section-title h1{
+    text-align: center;
+    color: #dfdbdb;
+    z-index: -1;
+    font-size: 4.2rem;
+}
+.section-title h4{
+    text-align: center;
+    margin-top: -60px;
+}
+
 /* ====== global text colors ======= */
 .gray{
     color: #a19d9d;
@@ -20,4 +42,19 @@
 }
 .font-18{
     font-size: 1.8rem;
+}
+
+
+/* ========= global font weights ======= */
+.w-300{
+    font-weight: 300;
+}
+.w-400{
+    font-weight: 400;
+}
+.w-500{
+    font-weight: 500;
+}
+.w-600{
+    font-weight: 600;
 }

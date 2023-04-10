@@ -1,0 +1,28 @@
+#about{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.about-image{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    box-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.2),
+                0px 3px 0px 3px rgba(0, 0, 0, 0.1) inset,
+                3px 0px 3px 0px rgba(0, 0, 0, 0.2),
+                3px 0px 3px 0px rgba(0, 0, 0, 0.1) inset;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.about-image img{
+    max-width: 350px;
+}
+
+.about-info span{
+    color: #6d6c6c;
+    font-weight: 500;
+}
