@@ -26,3 +26,31 @@
     color: #6d6c6c;
     font-weight: 500;
 }
+
+
+/* ======= skills section ======= */
+.skills{
+    padding: 20px 10px;
+    padding-right: 30px;
+}
+.skill-content p{
+    margin: 0;
+    padding: 0;
+}
+.skill-bar{
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar .bar{
+    height: 5px;
+    background-color: #0d6efd;
+}
+
+
+/* ============ education section ========== */
+.education{
+    padding: 20px;
+}
