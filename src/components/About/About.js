@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import aboutImage from '../../images/NurImage.png';
 import { skills } from './Skills';
+import { education } from './Education';
 
 const About = () => {
 
@@ -62,7 +63,7 @@ const About = () => {
                         <div className="skills">
                         <h3 className='sub-title mb-4'>Skills</h3>
                         {
-                            skills.map(sk => <div className="skill mb-3">
+                            skills.map(sk => <div className="skill mb-4">
                             <div className="skill-content d-flex justify-content-between">
                                 <p>{sk.name}</p>
                                 <p>{sk.skill}</p>
@@ -76,8 +77,15 @@ const About = () => {
                     </div>
 
                     <div className="col-md-6">
-                        <div className="education">
+                        <div className="educations">
                             <h3 className="sub-title mb-4">Education</h3>
+                            {
+                                education.map(edu => <div className="education">
+                                <h4 className='font-14'>{edu.degree}</h4>
+                                <h6 className='font-12 blue mb-1'>{edu.passYear}</h6>
+                                <p className='gray font-11'>{edu.description}</p>
+                            </div>)
+                            }
                         </div>
                     </div>
                 </div>

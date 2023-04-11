@@ -34,6 +34,9 @@ p{
 
 
 /* ====== global font sizes in the text ======== */
+.font-11{
+    font-size: 1.1rem;
+}
 .font-12{
     font-size: 1.2rem;
 }
