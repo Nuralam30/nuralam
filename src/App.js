@@ -4,6 +4,8 @@ import NavMenu from './components/NavMenu/NavMenu';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
 import Services from './components/Services/Services';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Banner />
       <About />
       <Services />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

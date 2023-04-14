@@ -13,7 +13,7 @@ const Services = () => {
                     </div>
 
                     {
-                        AllServices.map(service => <div className="col-md-4">
+                        AllServices.map((service, i) => <div className="col-md-4" key={i}>
                         <div className="service text-center">
                             <div className="service-icon blue">
                                 {service.icon}

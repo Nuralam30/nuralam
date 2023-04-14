@@ -63,7 +63,7 @@ const About = () => {
                         <div className="skills">
                         <h3 className='sub-title mb-4'>Skills</h3>
                         {
-                            skills.map(sk => <div className="skill mb-4">
+                            skills.map((sk, i) => <div className="skill mb-4" key={i}>
                             <div className="skill-content d-flex justify-content-between">
                                 <p>{sk.name}</p>
                                 <p>{sk.skill}</p>
