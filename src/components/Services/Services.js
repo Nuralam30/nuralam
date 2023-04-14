@@ -1,6 +1,5 @@
 import React from 'react';
 import './Services.css';
-import { FaFacebook } from 'react-icons/fa';
 import { AllServices } from './allServices';
 
 const Services = () => {
@@ -16,8 +15,8 @@ const Services = () => {
                     {
                         AllServices.map(service => <div className="col-md-4">
                         <div className="service text-center">
-                            <div className="service-icon">
-                                <FaFacebook />
+                            <div className="service-icon blue">
+                                {service.icon}
                             </div>
                             <h5 >{service.heading}</h5>
                             <p>{service.description}</p>
