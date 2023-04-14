@@ -1,0 +1,25 @@
+
+#services{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.service{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+    box-shadow: 0px 5px 10px #807d7d;
+}
+.service-icon{
+    font-size: 4.1rem;
+    margin-bottom: 10px;
+}
+.service:hover{
+    transform: translate(-5px, -5px);
+}

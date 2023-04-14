@@ -21,6 +21,16 @@ p{
     margin-top: -60px;
 }
 
+
+/* ======= global background color ======== */
+.bg-white{
+    background-color: #fff;
+}
+.bg-black{
+    background-color: #000;
+}
+
+
 /* ====== global text colors ======= */
 .gray{
     color: #a19d9d;

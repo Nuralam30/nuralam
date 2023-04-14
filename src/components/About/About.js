@@ -81,7 +81,7 @@ const About = () => {
                             <h3 className="sub-title mb-4">Education</h3>
                             {
                                 education.map(edu => <div className="education">
-                                <h4 className='font-14'>{edu.degree}</h4>
+                                <h5>{edu.degree}</h5>
                                 <h6 className='font-12 blue mb-1'>{edu.passYear}</h6>
                                 <p className='gray font-11'>{edu.description}</p>
                             </div>)
