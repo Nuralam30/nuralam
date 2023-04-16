@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import { PortfolioItems } from './PortfolioItems';
-import { FaPlus } from 'react-icons/fa';
+import SingleItem from './SingleItem';
 
 const Portfolio = () => {
 
@@ -10,8 +10,8 @@ const Portfolio = () => {
 
     const categories = [...new Set(PortfolioItems.map(item => item.category))]
 
-    useEffect( () => {
-        if(active === ''){
+    useEffect(() => {
+        if (active === '') {
             setItems(PortfolioItems)
         }
     }, [active])
@@ -48,17 +48,7 @@ const Portfolio = () => {
                         </ul>
 
                         {
-                            items.map((item, i) => <div className="col-md-3">
-                            <div className="portfolio-item">
-                                <div className="portfolio-image">
-                                    <img src={item.image} alt="" />
-                                </div>
-                                <div className="overlay">
-                                    <h5>{item.category}</h5>
-                                    <span className='white'> <FaPlus className='preview-item' /> </span>
-                                </div>
-                            </div>
-                        </div>)
+                            items.map((item, i) => <SingleItem item={item} key={i}></SingleItem>)
                         }
 
                     </div>

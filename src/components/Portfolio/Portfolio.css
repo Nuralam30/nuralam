@@ -99,3 +99,15 @@
         opacity: 1;
     }
 }
+
+/* ====== modal image style =========== */
+.modal-image{
+    max-width: 750px;
+}
+.modal-image img{
+    width: 100%;
+}
+
+.portfolio-description p{
+    margin-top: 15px;
+}
