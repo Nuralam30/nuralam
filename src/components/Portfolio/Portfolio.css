@@ -4,20 +4,25 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
+    overflow-x: hidden;
 }
 
 .filter-btns{
+    list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .filter-btns li{
+    font-size: 0.9rem;
     text-transform: uppercase;
-    margin: 0px 5px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 2px 7px;
+    margin: 2px 5px;
+    cursor: pointer;
 }
 
-.filter-btns li.active{
-    background-color: gray;
-}
 
 .portfolio-item{
     position: relative;
@@ -36,6 +41,8 @@
     min-height: 100%;
 }
 
+
+/* ============ overlay section style ======== */
 .portfolio-item .overlay{
     position: absolute;
     top: 0;

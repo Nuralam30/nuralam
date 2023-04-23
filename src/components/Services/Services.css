@@ -9,7 +9,7 @@
 
 .service{
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     margin-bottom: 15px;
     transform-style: preserve-3d;

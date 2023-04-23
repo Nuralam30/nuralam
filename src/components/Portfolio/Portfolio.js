@@ -41,9 +41,9 @@ const Portfolio = () => {
                         </div>
 
                         <ul className="filter-btns mb-4" data-aos="fade-right">
-                            <li className={active === '' ? "btn btn-sm border btn-primary" : "btn btn-sm border"} onClick={showAll}>All</li>
+                            <li className={active === '' ? "bg-blue white" : ""} onClick={showAll}>All</li>
                             {
-                                categories.map((category, i) => <li key={i} className={active === category ? 'btn btn-sm border btn-primary' : 'btn btn-sm border'} onClick={handleFilter}>{category}</li>)
+                                categories.map((category, i) => <li key={i} className={active === category ? 'bg-blue white' : ''} onClick={handleFilter}>{category}</li>)
                             }
                         </ul>
 

@@ -12,7 +12,7 @@ const SingleItem = ({ item }) => {
     const handleShow = () => setShow(true);
 
     return (
-        <div className="col-md-3">
+        <div className="col-lg-3 col-md-6 col-12">
             <div className="portfolio-item">
                 <div className="portfolio-image">
                     <img src={item.image} alt="" />
@@ -38,8 +38,8 @@ const SingleItem = ({ item }) => {
                         <div className="col-md-6">
                             <div className="portfolio-description">
                                 <h4>{item.name}</h4>
-                                {item.link && <span>Live : <a href={item.link}>{item.link}</a></span>}
-                                {item.figma && <span>Figma : <a href={item.figma}>{item.figma}</a></span>}
+                                {item.link && <span>Live : <a href={item.link} rel='noreferrer' target='_blank'>{item.link}</a><br /></span>} 
+                                {item.figma && <span>Figma : <a href={item.figma} rel='noreferrer' target='_blank'>{item.figma}</a> <br /></span>}
                                 <p>{item.description}</p>
                             </div>
                         </div>

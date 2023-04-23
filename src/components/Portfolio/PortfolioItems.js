@@ -62,7 +62,7 @@ export const PortfolioItems = [
         category: 'ui design',
         name: 'Landing Page Design',
         image: figma1,
-        link: '',
+        link: 'https://nuralam30.github.io/frontend-task/',
         figma: 'https://www.figma.com/file/Yyw2aEvulIzoD82c2qk7ka/Untitled?node-id=0%3A1&t=dmeyBMDH2Bm1REhD-0',
         description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro consequuntur sapiente dicta beatae, repudiandae natus vitae, iste quibusdam similique minima obcaecati aut voluptate illum ullam numquam vel tempore eos libero. Doloribus minima tenetur quia corporis assumenda, ea cum molestiae cupiditate ratione iusto tempore itaque ab voluptatibus minus expedita,']
     },
