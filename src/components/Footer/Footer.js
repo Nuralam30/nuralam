@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaCopyright } from 'react-icons/fa';
+import { FaServicestack } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='footer bg-gray p-2 pt-3'>
-            <p className='text-center'><FaCopyright className='font-12' /> All rights reserved by Nura alam</p>
+        <div className='footer bg-light p-2 pt-3'>
+            <p className='text-center'><FaServicestack className='font-12' /> To get my services, find me on <a href="https://www.fiverr.com/nuralam30?up_rollout=true" target="_blank" rel="noopener noreferrer">Fiverr</a></p>
         </div>
     );
 };
